@@ -157,6 +157,8 @@ The pie chart dynamically updates to show the male-to-female ratio for the selec
 
 ---
 
+![alt image](https://github.com/wolethomas78/Crime_Analysis/blob/20d9ec27ed5ebc48ea20b7cdc042bf821087bcdf/mnthlycrime.png)
+
 ## Monthly Crime Trend Analysis (2020–2025)
 
 This section analyzes monthly crime volumes by severity type using slicers for year and crime classification (Not Severe vs Severe). It reveals key seasonal trends, reporting irregularities, and system-driven data gaps.
