@@ -157,6 +157,43 @@ The pie chart dynamically updates to show the male-to-female ratio for the selec
 
 ---
 
+## Monthly Crime Trend Analysis (2020–2025)
+
+This section analyzes monthly crime volumes by severity type using slicers for year and crime classification (Not Severe vs Severe). It reveals key seasonal trends, reporting irregularities, and system-driven data gaps.
+
+---
+
+### Key Insights
+
+#### Not Severe Crimes
+- **Consistent seasonality (2020–2023)**: Higher crime in spring–fall; dips in winter months.
+- **Sharp decline in 2024–2025**: Monthly volumes drop significantly; 2025 data nearly absent.
+
+#### Severe Crimes
+- **Strong upward trend (2020–2023)** with sustained high volumes.
+- **Abrupt collapse in 2024–2025**, suggesting **reporting or system-level issues**.
+
+---
+
+### Interpretation
+
+- Monthly patterns until 2023 suggest **predictable crime cycles** that can support seasonal policing strategies.
+- The **abrupt drop** in 2024–2025 across both categories aligns with the **LAPD’s transition to NIBRS**, indicating **data disruption or delayed reporting**, not necessarily a real decline in crime.
+
+---
+
+### Recommendations
+
+1. **Investigate RMS Transition Effects on 2024–2025 Data**
+   - Confirm if low volumes stem from **technical disruptions, delayed integration**, or **data entry backlogs** caused by the NIBRS-compliant system transition.
+
+2. **Use 2020–2023 Seasonality for Predictive Safety Planning**
+   - Apply historical monthly trends to **pre-position law enforcement resources** in high-activity months (e.g., summer & holidays).
+
+3. **Align Stakeholders on Data Transition Status**
+   - Communicate clearly with policy teams, law enforcement, and community stakeholders that **2024–2025 data gaps are transitional**, not indicative of real-world crime reduction.
+
+---
 
 
 
