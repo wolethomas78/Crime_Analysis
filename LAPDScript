@@ -1,0 +1,100 @@
+
+# Importing the pandas library for data manipulation
+import pandas as pd
+
+# Loading the dataset from a CSV file
+df = pd.read_csv(r"C:\Users\bola\Downloads\Crime_Data_from_2020_to_Present.csv")
+print(df)
+
+# Exploring the structure of the dataset
+print(df.shape)         # Prints number of rows and columns
+print(df.columns)       # Prints column names
+print(df.head())        # Prints the first 5 rows
+print(df.tail())        # Prints the last 5 rows
+print(df.describe())    # Summary statistics for numeric columns
+
+# Cleaning column names: removing extra spaces, converting to lowercase, and replacing spaces with underscores
+df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')
+print(df.columns)
+
+# Checking for missing values in the dataset
+print(df.isnull().sum())
+
+# Filling missing values in 'mocodes' column with 0
+df = df.fillna({'mocodes': 0})
+
+# Converting negative victim ages to positive values (assuming negative values are data entry errors)
+df['vict_age'] = df['vict_age'].apply(lambda x: abs(x) if x < 0 else x)
+
+# Cleaning and standardizing 'vict_sex' column
+df['vict_sex'] = df['vict_sex'].astype(str).str.strip()
+df['vict_sex'] = df['vict_sex'].apply(lambda x: 'Male' if x == 'M' else 'Female' if x == 'F' else 'Unknown')
+print(df['vict_sex'])
+
+# Mapping victim descent codes to descriptive values
+df['vict_descent'] = df['vict_descent'].apply(lambda x: 'Asian' if x == 'A' else 'Black' if x == 'B' \
+else 'Chinese' if x == 'C' else 'Cambodian' if x == 'D' else 'Filipino' if x == 'F' else 'Guamanian' if x == 'G' \
+else 'Hispanic' if x == 'H' else 'American Indian' if x == 'I' else 'Japanese' if x == 'J' else 'Korean' if x == 'K' \
+else 'Laotian' if x == 'L' else 'Other' if x == 'O' else 'Pacific Islander' if x == 'P' \
+else 'Samoan' if x == 'S' else 'Hawaiian' if x == 'U' else 'Vietnamese' if x == 'V' \
+else 'White' if x == 'W' else 'Unknown' if x == 'X' else 'Asian Indian' if x == 'Z' else "Unknown")
+print([df.vict_descent])
+
+# Handling missing values and standardizing text formatting
+df['premis_cd'] = df['premis_cd'].fillna(0)
+df['premis_desc'] = df['premis_desc'].fillna('Not described')
+df['premis_desc'] = df['premis_desc'].str.title()
+
+df['weapon_used_cd'] = df['weapon_used_cd'].fillna(0)
+df['weapon_desc'] = df['weapon_desc'].fillna('Unknown')
+df['weapon_desc'] = df['weapon_desc'].str.title()
+
+df['location'] = df['location'].str.strip().str.title()
+df['cross_street'] = df['cross_street'].str.strip().str.title()
+df['cross_street'] = df['cross_street'].fillna('Unknown')
+
+df['status'] = df['status'].fillna('Unk')
+
+# Converting 'date_rptd' to datetime format
+df['date_rptd'] = pd.to_datetime(df['date_rptd'], errors='coerce')
+
+# Filling missing values in crime code columns with 0
+df['crm_cd_1'] = df['crm_cd_1'].fillna(0)
+df['crm_cd_2'] = df['crm_cd_2'].fillna(0)
+df['crm_cd_3'] = df['crm_cd_3'].fillna(0)
+df['crm_cd_4'] = df['crm_cd_4'].fillna(0)
+
+# Extracting just the date from datetime (normalizing time to 00:00:00)
+df['date_only'] = df['date_rptd'].dt.normalize()
+df['time_only'] = df['date_rptd'].dt.normalize()  # This seems redundant; could be just 'date_only'
+
+# Converting 'date_occ' to datetime format and extracting date and time components
+df['date_occ'] = pd.to_datetime(df['date_occ'], errors='coerce')
+df['date'] = df['date_occ'].dt.normalize()
+df['time'] = df['date_occ'].dt.normalize()  # Again, date and time normalized to 00:00:00
+
+# Converting 'time_occ' to datetime and normalizing
+df['time_occ'] = pd.to_datetime(df['time_occ'], errors='coerce')
+df['time1'] = df['time_occ'].dt.normalize()
+
+# Converting columns to integer type
+df['premis_cd'] = df['premis_cd'].astype(int)
+df['weapon_used_cd'] = df['weapon_used_cd'].astype(int)
+df['crm_cd_1'] = df['crm_cd_1'].astype(int)
+df['crm_cd_2'] = df['crm_cd_2'].astype(int)
+df['crm_cd_3'] = df['crm_cd_3'].astype(int)
+df['crm_cd_4'] = df['crm_cd_4'].astype(int)
+
+# Renaming date/time columns for clarity
+df = df.rename({
+    'date_only': 'new_date_rptd',
+    'time_only': 'new_time_rptd',
+    'date': 'new_date_occ',
+    'time': 'new_time_occu'
+})
+
+# Displaying frequency of each gender category
+print(df['vict_sex'].value_counts())
+
+# Exporting the cleaned DataFrame to an Excel file
+df.to_excel('cleaned_data.xlsx')
