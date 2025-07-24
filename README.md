@@ -43,8 +43,65 @@ Build a user-friendly, interactive dashboard to:
 - Crime updates have temporarily shifted from **weekly** to **bi-weekly** as part of this transition  
 - Data accuracy may vary due to transcription from original paper-based reports
 
+  ## Target Audience
+
+- Public safety officials and law enforcement analysts  
+- City policymakers and planning departments  
+- Journalists, researchers, and civic groups  
+- Concerned residents and neighborhood organizations  
+
 - ---
 
+![alt image](https://github.com/wolethomas78/Crime_Analysis/blob/aec6be49626887f00ecafca1466e13d198a79767/kpiCrime.png)
+## KPI Analysis: YTD vs PYTD Crime & Reporting Lag (2020–2025)
+
+This section tracks **Year-to-Date (YTD)** vs **Previous Year-to-Date (PYTD)** crime volumes and **Average Report Lag Days**, filtered by year and crime severity (`Not Severe`, `Severe`).
+
+---
+
+### KPI Visual Setup
+
+- **KPI Cards**:
+  -  Crime YTD & PYTD
+  -  Avg Report Lag Days (YTD & PYTD)
+- **Slicers**:
+  - Year (2020–2025)
+  - Crime Severity (Severe / Not Severe)
+
+---
+
+### Key Insights
+
+- 🔸 **Lag Time Improvement**:  
+  Report lag has decreased dramatically from 2020 to 2025 in both crime categories (e.g., Not Severe from 32.15 → 1.31 days).
+  
+- 🔸 **Crime Volume Trends**:  
+  - From 2020–2023, crime counts steadily increased.
+  - In **2024–2025**, both Not Severe and Severe crimes dropped sharply.
+
+---
+
+### Interpretation
+
+- Decreasing report lag suggests operational efficiency gains and improved data systems.
+- Sudden crime drops in 2024–2025 may reflect **NIBRS system transition**, **underreporting**, or **reporting delays**, not necessarily lower crime.
+
+---
+
+### Summary Recommendations
+
+1. **Enhance Real-Time Reporting**  
+   → Expand mobile/digital tools to maintain low report lag times.
+
+2. **Audit 2024–2025 Data Drops**  
+   → Validate if declines are due to system change or real reductions.
+
+3. **Create Monitoring Thresholds**  
+   → Set automated alerts for major changes in crime count or lag time.
+
+
+
+---
 
 ## Gender-Based Crime Victim Analysis (2020–2025)
 
@@ -90,7 +147,7 @@ The pie chart dynamically updates to show the male-to-female ratio for the selec
 
 ---
 
-### Summary of Recommendations
+### Recommendations
 
 1. **Audit 2025 severe crime data** to verify anomaly or real trend shift.
 2. **Adjust community programs**: Support women for minor crime prevention, target men for violence prevention.
@@ -101,11 +158,13 @@ The pie chart dynamically updates to show the male-to-female ratio for the selec
 ---
 
 
+
+
+
+
+
 ---
 
-## Target Audience
+---
 
-- Public safety officials and law enforcement analysts  
-- City policymakers and planning departments  
-- Journalists, researchers, and civic groups  
-- Concerned residents and neighborhood organizations  
+
