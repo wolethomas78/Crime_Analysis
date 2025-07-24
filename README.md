@@ -88,7 +88,7 @@ This section tracks **Year-to-Date (YTD)** vs **Previous Year-to-Date (PYTD)** c
 
 ---
 
-### Summary Recommendations
+### Recommendations
 
 1. **Enhance Real-Time Reporting**  
    → Expand mobile/digital tools to maintain low report lag times.
