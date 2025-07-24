@@ -1,4 +1,6 @@
 
+![alt image](https://github.com/wolethomas78/Crime_Analysis/blob/e0bce7d834702f4fcebf542df408e815d076dc51/LAPDcrime.png)
+
 # Crime Data Dashboard & Public Safety Insights  
 **Data Source**: LAPD Crime Data (2020–Present)  
 **Metadata Updated**: July 12, 2025
