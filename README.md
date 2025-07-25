@@ -306,8 +306,42 @@ This section analyzes monthly crime volumes by severity type using slicers for y
 4. **Target Juvenile Crime with Early Interventions**
    - Launch **after-school programs, mentorship initiatives, and law enforcement-community partnerships** to reduce youth involvement.
 
+---
+
+## Methodology
+
+- **Data Extraction:** Pulled crime data from the LAPD dataset (2020–2025) and structured it for analysis.
+- **Data Cleaning & Transformation:** Used **Python (Pandas)** to clean, preprocess, and categorize crime by severity, victim gender, status, and report lag.
+- **Data Aggregation:** Summarized key metrics such as:
+  - Crime counts by year and month
+  - Crime types (severe vs. not severe)
+  - Victim demographics (gender)
+  - Offender status
+  - Report lag averages
+- **Visualization:** Built an interactive dashboard in **Power BI** using slicers for:
+  - Year
+  - Crime severity
+  - Crime category
+  - Region and victim gender
+- **Exploratory Analysis:** Conducted in-depth EDA to uncover:
+  - Gender disparities by crime severity
+  - Year-over-year changes in crime volume and reporting behavior
+  - Shifts in top crime types
+  - Arrest and investigation trends
 
 ---
 
+Contact Me
+- Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/oluwolefagbemi) or wolethomas78@gmail.com for questions or collaborations!
 
+  ## Why This Project Matters
+
+This dashboard highlights how **data-driven insights** can support **public safety efforts** and **policy-making**. By analyzing crime trends, victim demographics, and reporting behavior over time, it enables better-informed decisions by law enforcement, community leaders, and local governments. 
+
+It also demonstrates technical proficiency in:
+- Data preprocessing with Python (Pandas)
+- Interactive visualization with Power BI
+- Real-world storytelling with complex datasets
+
+These are critical skills for careers in **data analytics**, **public policy**, and **business intelligence**.
 
