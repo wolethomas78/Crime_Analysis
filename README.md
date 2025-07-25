@@ -256,6 +256,8 @@ This section analyzes monthly crime volumes by severity type using slicers for y
 
 ## Crime Committed by Status (2020–2025)
 
+![alt image](https://github.com/wolethomas78/Crime_Analysis/blob/31608d372ee375836845117115e14a72f29a1d6e/invst.png)
+
 ### Chart Referenced
 **Matrix Table** displaying the number of crimes by **offender status**:
 - **Status Types:** Investigation Continued, Adult Arrest, Adult Other, Juvenile Arrest, Juvenile Other
