@@ -251,17 +251,61 @@ This section analyzes monthly crime volumes by severity type using slicers for y
 
 3. **Prioritize High-Impact Crimes in Resource Deployment**
    - Law enforcement should **target top severe crimes** (e.g., stolen vehicles, burglary) with **tech-driven tracking and patrol shifts**.
+     
+---
 
+## Crime Committed by Status (2020–2025)
+
+### Chart Referenced
+**Matrix Table** displaying the number of crimes by **offender status**:
+- **Status Types:** Investigation Continued, Adult Arrest, Adult Other, Juvenile Arrest, Juvenile Other
+- **Slicers Used:** 
+  - Year (2020–2025)
+  - Crime Severity (Not Severe / Severe)
+
+---
+
+### Observation
+
+- **Investigation Continued** status dominates for both severe and not severe crimes, making up **~75%–85%** of records.
+- **Adult Arrests** remain relatively stable between **9K–11K** yearly (2020–2023), declining sharply in **2024–2025**.
+- **Juvenile involvement** (arrests + other) remains low overall but increases in **2023**.
+- **Significant drops in all categories** from **2024 onward**, with **2025 showing near-zero counts**, likely due to reporting issues.
+
+---
+
+### Interpretation
+
+- High "Investigation Continued" figures suggest that a majority of cases **remain open or unresolved**, raising concern about **case closure rates**.
+- Stable adult arrest numbers followed by sharp declines indicate a **data transition effect** tied to LAPD’s RMS/NIBRS migration.
+- Juvenile crime, while lower in volume, shows **a gradual increase through 2023**, suggesting a trend worth monitoring.
+
+---
+
+### Impact
+
+- **Operational bottlenecks** may exist in investigative workflows due to the large volume of unresolved cases.
+- **Drop in 2024–2025 data** may lead to **misleading conclusions** if not flagged in dashboards.
+- **Juvenile crime growth** in recent years could impact youth safety and community development if not addressed early.
+
+---
+
+### Recommendations
+
+1. **Flag Transition-Impacted Years**
+   - Clearly annotate **2024–2025** as years impacted by **reporting delays or system changes** in all visuals and exports.
+
+2. **Audit Open Investigations**
+   - Investigate the **backlog of continued cases**, especially in severe crimes, to evaluate **resource or procedural delays**.
+
+3. **Enhance Arrest Reporting Integration**
+   - Ensure arrest data is **fully integrated into new RMS/NIBRS systems** to restore trend continuity post-2023.
+
+4. **Target Juvenile Crime with Early Interventions**
+   - Launch **after-school programs, mentorship initiatives, and law enforcement-community partnerships** to reduce youth involvement.
 
 
 ---
 
-
-
-
-
----
-
----
 
 
