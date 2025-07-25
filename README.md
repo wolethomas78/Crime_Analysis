@@ -16,7 +16,7 @@ Build a user-friendly, interactive dashboard to:
 
 - Track and compare crime trends over time  
 - Visualize crime types, frequencies, and locations  
-- Identify hotspots and regional safety patterns  
+- Identify affected victims based on gender and weapons used for crime  
 - Support data-informed public safety decisions  
 
 ---
