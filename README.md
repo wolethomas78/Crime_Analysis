@@ -198,6 +198,64 @@ This section analyzes monthly crime volumes by severity type using slicers for y
 ---
 
 
+## Top 5 Crime Types (2020–2025)
+![alt image](https://github.com/wolethomas78/Crime_Analysis/blob/b286589143cfd89cd905c20a2548a00c33671c26/top5.png)
+
+### Chart Referenced
+**Bar Chart** showing the **Top 5 crime types per year**, filtered using slicers for:
+- **Year**
+- **Crime Severity (Not Severe / Severe)**
+
+---
+
+### Observation
+
+- **Not Severe Crimes (2020–2023):**
+  - Consistently high: `Battery - Simple Assault`, `Vandalism (Felony)`, and `Theft of Identity`.
+  - Notable increase in **identity theft**, peaking at **22.2K in 2022**.
+  - `Intimate Partner - Simple Assault` also ranks high.
+  - Sudden volume drop in **2024–2025** across all crimes.
+
+- **Severe Crimes (2020 data shown):**
+  - Top 5: `Vehicle Theft (20.8K)`, `Burglary`, `Assault with Deadly Weapon`, `Burglary from Vehicle`, and `Petty Theft`.
+  - These represent **property and violent crimes** with the greatest social and economic impact.
+
+---
+
+### Interpretation
+
+- **Criminal behavior patterns** remain consistent in earlier years, suggesting repeat-offense environments and persistent social factors.
+- The **2024–2025 drop** likely reflects **reporting system transition issues (RMS/NIBRS)**, not actual crime reduction.
+- **Vehicle-related crimes and assault** dominate severe categories, showing need for focused deterrents.
+
+---
+
+### Impact
+
+- **Strategic planning risks** if stakeholders misinterpret 2024–2025 data as real declines.
+- Informed resource allocation becomes challenging without **clarity on top crime drivers**.
+- Missed opportunity for targeted policing in areas like **identity theft**, which is clearly rising.
+
+---
+
+### Recommendations
+
+1. **Launch Focused Intervention Campaigns**
+   - Design **community outreach, digital literacy, and neighborhood watch** initiatives around:
+     - `Battery - Simple Assault`
+     - `Identity Theft`
+     - `Vehicle Theft`
+
+2. **Use Historical Top 5 Trends for Predictive Policing**
+   - Leverage 2020–2023 trends to build models that predict **likely top crimes in future months**.
+
+3. **Prioritize High-Impact Crimes in Resource Deployment**
+   - Law enforcement should **target top severe crimes** (e.g., stolen vehicles, burglary) with **tech-driven tracking and patrol shifts**.
+
+
+
+---
+
 
 
 
