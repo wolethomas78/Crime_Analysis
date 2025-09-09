@@ -18,7 +18,7 @@ This project features a dynamic and interactive dashboard that analyzes crime tr
    - [KPI](#kpi)
    - [Gendered Crime Trends](#gendered-crime-trends)
    - [Leading Crime Types](#leading-crime-types)
-   - [Crime Committed by Status (2020–2025)](#crime-committed-by-status-2020-2025)
+   - [Crimes by Status](#crimes-by-status)
    - [Methodology](#methodology)
    - [Contact Me](#contact-me)
 
@@ -273,8 +273,8 @@ This section analyzes monthly crime volumes by severity type using slicers for y
    - Law enforcement should **target top severe crimes** (e.g., stolen vehicles, burglary) with **tech-driven tracking and patrol shifts**.
      
 ---
-
-## Crime Committed by Status (2020–2025)
+  ## Crimes by Status
+### Crime Committed by Status (2020–2025)
 
 ![alt image](https://github.com/wolethomas78/Crime_Analysis/blob/31608d372ee375836845117115e14a72f29a1d6e/invst.png)
 
