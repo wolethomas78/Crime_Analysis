@@ -21,6 +21,8 @@ This project features a dynamic and interactive dashboard that analyzes crime tr
    - [Top 5 Crime Types (2020–2025)](#top-5-crime-types-2020-2025)
    - [Crime Committed by Status (2020–2025)](#crime-committed-by-status-2020-2025)
    - [Methodology](#methodology)
+   - [Contact Me](#contact-me)
+   - [Why This Project Matters](#why-this-project-matters)
 
 
  
@@ -349,7 +351,7 @@ This section analyzes monthly crime volumes by severity type using slicers for y
 
 ---
 
-Contact Me
+  ## Contact Me
 - Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/oluwolefagbemi) or wolethomas78@gmail.com for questions or collaborations!
 
   ## Why This Project Matters
