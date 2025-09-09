@@ -16,8 +16,7 @@ This project features a dynamic and interactive dashboard that analyzes crime tr
    - [Important Notes](#important-notes)
    - [Target Audience](#target-audience)
    - [KPI](#kpi)
-   - [Gender-Based Crime Victim Analysis (2020–2025)](#gender-based-crime-victim-analysis-2020-2025)
-   - [Gender-Based Crime Victim Analysis (2020–2025)](#gender-based-crime-victim-analysis-2020-2025)
+   - [Gendered Crime Tren ds](#gendered-crime-trends)
    - [Top 5 Crime Types (2020–2025)](#top-5-crime-types-2020-2025)
    - [Crime Committed by Status (2020–2025)](#crime-committed-by-status-2020-2025)
    - [Methodology](#methodology)
@@ -123,8 +122,8 @@ This section tracks **Year-to-Date (YTD)** vs **Previous Year-to-Date (PYTD)** c
 
 
 ---
-
-## Gender-Based Crime Victim Analysis (2020–2025)
+  ## Gendered Crime Trends
+### Gender-Based Crime Victim Analysis (2020–2025)
 
 This section of the dashboard analyzes gender distribution among crime victims from 2020 to 2025, categorized by **crime severity** (`Severe` vs `Not Severe`), using official LAPD data.
 
