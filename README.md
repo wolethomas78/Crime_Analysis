@@ -17,7 +17,7 @@ This project features a dynamic and interactive dashboard that analyzes crime tr
    - [Target Audience](#target-audience)
    - [KPI](#kpi)
    - [Gendered Crime Trends](#gendered-crime-trends)
-   - [Top 5 Crime Types (2020–2025)](#top-5-crime-types-2020-2025)
+   - [Leading Crime Types](#leading-crime-types)
    - [Crime Committed by Status (2020–2025)](#crime-committed-by-status-2020-2025)
    - [Methodology](#methodology)
    - [Contact Me](#contact-me)
@@ -217,8 +217,8 @@ This section analyzes monthly crime volumes by severity type using slicers for y
 
 ---
 
-
-## Top 5 Crime Types (2020–2025)
+  ## Leading Crime Types
+### Top 5 Crime Types (2020–2025)
 ![alt image](https://github.com/wolethomas78/Crime_Analysis/blob/b286589143cfd89cd905c20a2548a00c33671c26/top5.png)
 
 ### Chart Referenced
