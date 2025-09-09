@@ -15,7 +15,7 @@ This project features a dynamic and interactive dashboard that analyzes crime tr
    - [Data Source](#data-source)
    - [Important Notes](#important-notes)
    - [Target Audience](#target-audience)
-   - [KPI Analysis: YTD vs PYTD Crime & Reporting Lag (2020–2025)](#kpi-analysis-ytd-vs-pytd-crime--reporting-lag-2020-2025)
+   - [KPI Analysis: YTD vs PYTD Crime & Reporting Lag (2020–2025)](#kpi-analysis-ytd-vs-pytd-crime-reporting-lag-20202025)
    - [Gender-Based Crime Victim Analysis (2020–2025)](#gender-based-crime-victim-analysis-2020-2025)
    - [Monthly Crime Trend Analysis (2020–2025)](#monthly-crime-trend-analysis-2020-2025)
    - [Top 5 Crime Types (2020–2025)](#top-5-crime-types-2020-2025)
