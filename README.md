@@ -17,7 +17,7 @@ This project features a dynamic and interactive dashboard that analyzes crime tr
    - [Target Audience](#target-audience)
    - [KPI](#kpi)
    - [Gender-Based Crime Victim Analysis (2020–2025)](#gender-based-crime-victim-analysis-2020-2025)
-   - [Monthly Crime Trend Analysis (2020–2025)](#monthly-crime-trend-analysis-2020-2025)
+   - [Gender-Based Crime Victim Analysis (2020–2025)](#gender-based-crime-victim-analysis-2020-2025)
    - [Top 5 Crime Types (2020–2025)](#top-5-crime-types-2020-2025)
    - [Crime Committed by Status (2020–2025)](#crime-committed-by-status-2020-2025)
    - [Methodology](#methodology)
