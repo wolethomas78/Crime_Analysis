@@ -22,7 +22,7 @@ This project features a dynamic and interactive dashboard that analyzes crime tr
    - [Crime Committed by Status (2020–2025)](#crime-committed-by-status-2020-2025)
    - [Methodology](#methodology)
    - [Contact Me](#contact-me)
-   - [Why This Project Matters](#why-this-project-matters)
+
 
 
  
