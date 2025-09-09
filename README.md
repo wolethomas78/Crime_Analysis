@@ -9,6 +9,15 @@ This project features a dynamic and interactive dashboard that analyzes crime tr
 
 ---
 
+## Table of Content
+   - [Project Overview](#project-overview)
+   - [Tools & Technologies](#tools--technologies)
+   - [Data Source](#data-source)
+   - [Important Notes](#important-notes)
+   - [Target Audience](#target-audience)
+
+
+
 ## Project Overview
 
 ### Goal  
