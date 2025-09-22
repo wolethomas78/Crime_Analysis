@@ -6,7 +6,8 @@
 **Metadata Updated**: July 12, 2025
 
 This project features a dynamic and interactive dashboard that analyzes crime trends across Los Angeles from 2020 to the present. Using official LAPD crime report data, the dashboard empowers public safety professionals, policymakers, and community members with clear, data-driven insights.
-- ## ![Python Data Cleaning Code](https://github.com/wolethomas78/Crime_Analysis/blob/c5de8909ae73e1d58467e9c4c1b2cb46a6e49215/LpdaCrime.py) 
+- ## Python Data Cleaning Code
+- ![Python Data Cleaning Code](https://github.com/wolethomas78/Crime_Analysis/blob/c5de8909ae73e1d58467e9c4c1b2cb46a6e49215/LpdaCrime.py) 
 
 ---
 
